@@ -5,8 +5,8 @@ import { useDropzone } from "react-dropzone";
 
 import Image from "next/image";
 
-import MetaData from "./MetaData";
-import Logo from "./Logo";
+import MetaData from "../components/MetaData";
+import Logo from "../components/Logo";
 
 const DropField = () => {
   const [selectedImage, setSelectedImage] = useState("");
