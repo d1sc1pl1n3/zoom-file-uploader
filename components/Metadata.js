@@ -85,7 +85,6 @@ const MetaData = (props) => {
   const handleLocator = async (value) => {
     //const results = await geocodeByAddress(value);
     setAddress(value);
-    //console.log(results);
     //console.log(results[0].formatted_address);
   };
 
