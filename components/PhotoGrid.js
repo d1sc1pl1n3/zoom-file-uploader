@@ -1,13 +1,12 @@
 import React from "react";
 import styled from "styled-components";
 import DropField from "./DropField";
-import Tagged from "../components/taggedUploads";
+//import Tagged from "../components/taggedUploads";
 
 const PhotoGrid = () => {
   return (
     <Grid>
       <DropField />
-      <Tagged />
     </Grid>
   );
 };
