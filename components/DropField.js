@@ -5,7 +5,7 @@ import { useDropzone } from "react-dropzone";
 
 import Image from "next/image";
 
-import MetaData from "../components/MetaData";
+import MetaData from "../components/Metadata";
 import Logo from "../components/Logo";
 
 const DropField = () => {
