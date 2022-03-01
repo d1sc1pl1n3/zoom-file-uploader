@@ -10,10 +10,6 @@ class MyDocument extends Document {
         <body>
           <Main />
           <NextScript />
-          <script
-            async
-            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCj7U8d19ldoFFW_0RHKcYqIwy-tWPp_bA&libraries=places"
-          ></script>
         </body>
       </Html>
     );
