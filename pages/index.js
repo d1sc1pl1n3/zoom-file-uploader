@@ -19,7 +19,7 @@ export default function Home() {
       <Script
         type="text/javascript"
         strategy="beforeInteractive"
-        src={`https://maps.googleapis.com/maps/api/js?key=${process.env.MAPS_API_KEY}&libraries=places`}
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAWwv6D_87tBqFEENtDJ3A4ZsQHgBbwQTw&libraries=places"
       ></Script>
       <PhotoGrid />
     </Container>
